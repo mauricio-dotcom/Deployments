@@ -1,0 +1,6 @@
+$templateFile = "C:\Users\mperdomo\source\repos\Deployments\azuredeploy.json"
+New-AzResourceGroupDeployment `
+  -Name addlocationparameter `
+  -ResourceGroupName testrg `
+  -TemplateFile $templateFile `
+  -storageName "sto2avd1234"
